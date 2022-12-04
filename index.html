@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML_Test</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="firstview">
+    <h1 class="catch_copy">キャッチコピー</h1>
+  </div>
+
+  <div class="main1">
+    <h2 class="title_main1">About</h2>
+    <p class="contents_main1">COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングスクールです。<br>プログラミング未経験の型でも、<span class="sentence">「独自の学習ノウハウ」</span>でフリーランスエンジニアを目指すことができます。</p>
+  </div>
+
+  <div class="main2">
+    <h2>ブログ</h2>
+    <div class="card_main2">
+      <div class="card1">
+        <img src="img/blog__eyecatch1.jpg" alt="img1" class="card_img1">
+        <p>コーチテックブログのタイトルがここに入ります。</p>
+      </div>
+      <div class="card2">
+        <img src="img/blog__eyecatch2.jpg" alt="img2" class="card_img2">
+        <p>コーチテックブログのタイトルがここに入ります。</p>
+      </div>
+      <div class="card3">
+        <img src="img/blog__eyecatch3.jpg" alt="img3" class="card_img3">
+        <p>コーチテックブログのタイトルがここに入ります。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="main3">
+    <h2 class="main3_title">お問い合わせ</h2>
+    <form action="Draft" method="post">
+      <div class="form">
+        <table class="form_table">
+          <tr class="table_item">
+            <th class="table_title">名前</th>
+            <td><input type="text" name="name" class="form_text"></td>
+          </tr>
+          <tr class="table_item">
+            <th class="table_title">メールアドレス</th>
+            <td><input type="text" name="mail" class="form_text"></td>
+          </tr>
+          <tr class="table_item">
+            <th class="table_title">用件</th>
+            <td>
+              <select name="main_contents" class="main_content">
+                <option>広告掲載について</option>
+              </select>
+            </td>
+          </tr>
+          <tr class="table_item">
+            <th class="table_title">内容</th>
+            <td><textarea name="contents" cols="30" rows="10" class="form_text"></textarea></td>
+          </tr>
+        </table>
+        <div class="botton">
+          <input class="delete_botton" type="submit" name="delete" value="削除">
+          <input class="sending_botton" type="submit" name="送信">
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
